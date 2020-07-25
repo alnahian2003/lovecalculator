@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 
+        ==============================
+        =       Al Nahian ♥ 2020     =
+        ==============================
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.min.css">
+    <title>Love Calculator | Al Nahian</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container names">
+        <h1 class="text-danger mt-4 text-center">Love Calculator</h1>
+        <form class="mt-5" id="love-calculator">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="yourname">Your Name</label>
+                    <input type="text" class="form-control input-lg" id="yourname" placeholder="Enter Your Name" />
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="theirname">Her/His Name</label>
+                    <input type="text" class="form-control input-lg" id="theirname" placeholder="Enter Her/His Name" />
+                </div>
+            </div>
+        </form>
+        <button class="btn btn-block btn-danger">Calculate</button>
+
+    </div>
+
+    <div class="container mt-5">
+        <!-- Result Container Above 70% -->
+        <div class="alert alert-success" style=" display: none;" role="alert">
+            <h5 class="alert-heading">Congratulations!</h5>
+            <p id="result"></p>
+        </div>
+        <!-- Result Container Above 30% -->
+        <div class="alert alert-warning" style=" display: none;" role="alert">
+            <h4 class="alert-heading">Good Wishes!</h4>
+            <p id="result1"></p>
+        </div>
+        <!-- Result Container Below 30% -->
+        <div class="alert alert-danger" style=" display: none;" role="alert">
+            <h4 class="alert-heading">Put More Concentration!</h4>
+            <p id="result2"></p>
+        </div>
+    </div>
+    <footer class="credit text-center mt-5">
+        <p>
+            Do you know why programmers don't have any girlfriend?
+            <a style="text-decoration: none; font-weight: bold; color: rgb(255, 111, 1);" target="_blank"
+                href="https://alnahian.xyz/contact">Tell me why</a>
+        </p>
+        <p>
+            Made With <span style="color: red;">♥</span> By
+            <a style="text-decoration: none; font-weight: bold; color: black;" target="_blank"
+                href="https://facebook.com/alnahian2003">Al Nahian</a>
+        </p>
+
+        <p>
+            Powered By
+            <a style="
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(0, 167, 42);
+          " target="_blank" href="https://hostweb.net">Host Web</a>
+        </p>
+    </footer>
+    <!-- JS File Linking -->
+    <script src="app.js"></script>
+</body>
+
+</html>
